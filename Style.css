@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+form {
+    background-color: #ffc0cb;
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #c1c1c1;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin:10px 0px 20px;
+}
+#div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+#password {
+    all: unset;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 28px;
+    width: calc( 100% - 24px);
+}
+i {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    font-size: 32px;
+    opacity: 0.3;
+}
+i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.box {
+    position: absolute;
+    background-color: lightgreen;
+    border-radius: 10px;
+    bottom: 20px;
+    right: -300px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px #c1c1c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#generate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 125px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#generate:hover {
+    cursor: pointer;
+    background-color: rgb(59, 162, 51);
+}
